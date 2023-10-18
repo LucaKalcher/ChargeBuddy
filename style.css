@@ -150,7 +150,7 @@ body{
     color: white;
     font-size: 15px;
     line-height: 1.9;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .text a {
@@ -260,7 +260,7 @@ transform: translateY(-5px);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
-    background-size:500% 500% !important;
+    background-size:500% 500% ;
     -webkit-animation: Gradient 20s ease infinite;
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
@@ -484,5 +484,29 @@ transform: translateY(-5px);
     }
     .copyright-img img{
         margin-bottom: -80px;
+    }
+
+    #home{
+        scroll-margin-top: 80px;
+    }
+    
+    #platform{
+        scroll-margin-top: 220px;
+    }
+    
+    #about{
+        scroll-margin-top: 500px;
+    }
+    #innovation{
+        scroll-margin-top: 400px;
+    }
+    #contact{
+        scroll-margin-top: 400px;
+    }
+    #copyright{
+        scroll-margin-top: 100px;
+    }
+    #partner{
+        scroll-margin-top: 20px;
     }
 }
